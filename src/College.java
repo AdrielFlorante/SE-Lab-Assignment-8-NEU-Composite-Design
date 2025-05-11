@@ -24,7 +24,7 @@ public class College implements OrganizationalUnit {
     @Override
     public void displayDetails() {
         System.out.println("College Name: " + this.name);
-        System.out.println("Number of Students: " + getNumberofStudents());
+        System.out.println("Number of Students: " + getNumberOfStudents());
     }
 
     @Override

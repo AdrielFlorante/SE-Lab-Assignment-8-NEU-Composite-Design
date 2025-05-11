@@ -33,7 +33,7 @@ public class Department implements OrganizationalUnit {
     @Override
     public void displayDetails() {
         System.out.println("Department Name: " + this.name);
-        System.out.println("Number of Students: " + getNumberofStudents());
+        System.out.println("Number of Students: " + getNumberOfStudents());
     }
 
     @Override
